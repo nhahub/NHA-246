@@ -102,7 +102,7 @@ mvn test
 - Mohamed Ahmed Elhageen  
 - Omar Ibrahim  
 - Filopatter Hani  
-- Muslim Easlam  
+- Muslim Eslam  
 
 ---
 
