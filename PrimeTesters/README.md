@@ -1,7 +1,8 @@
 # PrimeTester – Automation Testing Project
 
-PrimeTester is an automated testing project built using **Java**, **Selenium WebDriver**, and **TestNG**.  
-This project includes automation test scripts for Login, Cart, Checkout, Sorting, and general UI validation.
+PrimeTester is an automated testing project built using **Java**, **Selenium WebDriver**, **TestNG**, and **API Testing with Postman**.  
+This project includes automation test scripts for Login, Cart, Checkout, Sorting, general UI validation, and API endpoints verification.  
+The API endpoints tested are provided by **https://dummyjson.com**.
 
 ---
 
@@ -9,10 +10,12 @@ This project includes automation test scripts for Login, Cart, Checkout, Sorting
 
 - End-to-end automated test scenarios  
 - Selenium WebDriver for browser automation  
+- API Testing using **Postman** for endpoint validation  
+- API endpoints sourced from **https://dummyjson.com**  
 - Clean test classes separated by functionality  
 - Maven project structure  
 - Reusable TestRunner for organized execution  
-- Covers main flows: Login → Add to Cart → Checkout → Sorting → UI validation
+- Covers main flows: Login → Add to Cart → Checkout → Sorting → UI validation → API testing
 
 ---
 
@@ -23,6 +26,7 @@ This project includes automation test scripts for Login, Cart, Checkout, Sorting
 - TestNG  
 - Maven  
 - IntelliJ IDEA  
+- Postman for API testing  
 
 ---
 
@@ -64,25 +68,33 @@ mvn test
 - افتح **TestRunner.java**  
 - دوس Run ▶️
 
+### **Run API Tests using Postman**
+1. افتح **Postman**  
+2. استورد ملفات **Postman Collection** لو موجودة  
+3. اختبر كل الـ endpoints: GET, POST, PUT, DELETE  
+4. تحقق من Status Code و Response Body  
+5. API endpoints المستهدفة موجودة على: **https://dummyjson.com**
+
 ---
 
 ## 🧪 Automated Test Coverage
 
-| Test Class       | What It Covers |
+| Test Class       | What It Covers |
 |------------------|----------------|
-| LoginTest        | Valid login, invalid login, locked user |
-| CartTest         | Add to cart, remove from cart |
-| YourCartTest     | Cart details, item count |
-| CheckoutTest     | User info, checkout steps, finish order |
-| SortingTest      | Sort by name & price |
-| UITest           | UI checks & element visibility |
-| AppTest          | General framework testing |
+| LoginTest        | Valid login, invalid login, locked user |
+| CartTest         | Add to cart, remove from cart |
+| YourCartTest     | Cart details, item count |
+| CheckoutTest     | User info, checkout steps, finish order |
+| SortingTest      | Sort by name & price |
+| UITest           | UI checks & element visibility |
+| AppTest          | General framework testing |
+| API Tests        | API endpoints verification via Postman (https://dummyjson.com) |
 
 ---
 
 ## 📎 Project Deliverables
 
-### **🟩 Manual Test Cases (Excel)**
+### **🟩 Manual Test Cases (Excel Sheet)**
 🔗 https://1drv.ms/x/c/95e188fbebbf03c2/IQBe88wM8hsFQL5p8fCT2F45AYu4jxlLR0b-Q16c12gpsos?e=IWVGMD
 
 ### **🟦 Presentation (PrimeTester)**
@@ -110,6 +122,7 @@ mvn test
 
 ✔ Manual Test Cases  
 ✔ Automation Scripts  
+✔ API Testing (Postman with https://dummyjson.com)  
 ✔ Documentation  
 ✔ Test Plan  
 ✔ Presentation  
