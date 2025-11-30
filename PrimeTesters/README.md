@@ -1,4 +1,4 @@
-# PrimeTester – Automation Testing Project
+# PrimeTester –  Testing Project
 
 PrimeTester is an automated testing project built using **Java**, **Selenium WebDriver**, **TestNG**, and **API Testing with Postman**.  
 This project includes automation test scripts for Login, Cart, Checkout, Sorting, general UI validation, and API endpoints verification.  
