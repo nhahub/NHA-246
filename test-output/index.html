@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Tests_Suite" class="navigator-link">
+              <span class="suite-name border-failed">All Tests Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Tests_Suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Tests_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Tests_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Tests_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Tests_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Tests_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Tests_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 5 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Tests_Suite" class="hide-methods failed suite-All_Tests_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Tests_Suite -->
+                      <a href="#" panel-name="suite-All_Tests_Suite" class="show-methods failed suite-All_Tests_Suite"> (show)</a> <!-- show-methods failed suite-All_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Tests_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.YourCartTest" class="method navigator-link" hash-for-method="testCartIsolationBetweenUsers">testCartIsolationBetweenUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CartTest" class="method navigator-link" hash-for-method="testCartPersistence">testCartPersistence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutWithMultipleItems">testCheckoutWithMultipleItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCompleteCheckoutProcess">testCompleteCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CartTest" class="method navigator-link" hash-for-method="testRemoveProductFromCart">testRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Tests_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Tests_Suite" class="hide-methods passed suite-All_Tests_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Tests_Suite -->
+                      <a href="#" panel-name="suite-All_Tests_Suite" class="show-methods passed suite-All_Tests_Suite"> (show)</a> <!-- show-methods passed suite-All_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Tests_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CartTest" class="method navigator-link" hash-for-method="testAddMultipleProducts">testAddMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CartTest" class="method navigator-link" hash-for-method="testAddSingleProductToCart">testAddSingleProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.UITest" class="method navigator-link" hash-for-method="testButtonsVisibility">testButtonsVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.YourCartTest" class="method navigator-link" hash-for-method="testCartItemDetails">testCartItemDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutValidation">testCheckoutValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.CartTest" class="method navigator-link" hash-for-method="testContinueShopping">testContinueShopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.UITest" class="method navigator-link" hash-for-method="testImagesLoading">testImagesLoading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.YourCartTest" class="method navigator-link" hash-for-method="testLockedUserCannotAccessCart">testLockedUserCannotAccessCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(locked_out_user, secret_sauce, false, Locked out user)">testLoginWithDifferentUsers(locked_out_user, secret_sauce, false, Locked out user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(, secret_sauce, false, Empty username)">testLoginWithDifferentUsers(, secret_sauce, false, Empty username)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(problem_user, secret_sauce, true, Problem user)">testLoginWithDifferentUsers(problem_user, secret_sauce, true, Problem user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(wrong_user, wrong_pass, false, Invalid credentials)">testLoginWithDifferentUsers(wrong_user, wrong_pass, false, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(standard_user, secret_sauce, true, Valid standard user)">testLoginWithDifferentUsers(standard_user, secret_sauce, true, Valid standard user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(standard_user, , false, Empty password)">testLoginWithDifferentUsers(standard_user, , false, Empty password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithDifferentUsers(performance_glitch_user, secret_sauce, true, Performance user)">testLoginWithDifferentUsers(performance_glitch_user, secret_sauce, true, Performance user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.LoginTest" class="method navigator-link" hash-for-method="testLogoutFunctionality">testLogoutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.UITest" class="method navigator-link" hash-for-method="testMenuFunctionality">testMenuFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.YourCartTest" class="method navigator-link" hash-for-method="testRemoveItemFromCartPage">testRemoveItemFromCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.UITest" class="method navigator-link" hash-for-method="testResponsiveLayout">testResponsiveLayout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.SortingTest" class="method navigator-link" hash-for-method="testSortPriceHighToLow">testSortPriceHighToLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.SortingTest" class="method navigator-link" hash-for-method="testSortPriceLowToHigh">testSortPriceLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.SortingTest" class="method navigator-link" hash-for-method="testSortProductsAZ">testSortProductsAZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests_Suite" title="org.example.tests.SortingTest" class="method navigator-link" hash-for-method="testSortProductsZA">testSortProductsZA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Tests_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Tests_Suite" class="panel All_Tests_Suite">
+          <div class="suite-All_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartPersistence">
+                  </a> <!-- testCartPersistence -->
+                  <span class="method-name">testCartPersistence</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4c8fc845a2ae6a1cf1107e54fdb8485, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49175}, goog:processID: 19700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49175/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4c8fc845a2ae6a1cf1107e54fdb8485
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.clear(Unknown Source)
+	at org.example.pages.LoginPage.enterUsername(LoginPage.java:26)
+	at org.example.pages.LoginPage.login(LoginPage.java:40)
+	at org.example.tests.base.BaseTest.loginAsStandardUser(BaseTest.java:48)
+	at org.example.tests.CartTest.testCartPersistence(CartTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.example.tests.TestRunner.main(TestRunner.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveProductFromCart">
+                  </a> <!-- testRemoveProductFromCart -->
+                  <span class="method-name">testRemoveProductFromCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.shopping_cart_badge&quot;}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9d4884b8ccf80586da1a5cbac24f793, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53473}, goog:processID: 1740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53473/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9d4884b8ccf80586da1a5cbac24f793
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+	at org.example.pages.ProductsPage.isCartBadgeDisplayed(ProductsPage.java:53)
+	at org.example.tests.CartTest.testRemoveProductFromCart(CartTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.example.tests.TestRunner.main(TestRunner.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-failed -->
+          <div class="suite-All_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.tests.YourCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartIsolationBetweenUsers">
+                  </a> <!-- testCartIsolationBetweenUsers -->
+                  <span class="method-name">testCartIsolationBetweenUsers</span>
+                  <div class="stack-trace">java.lang.AssertionError: Different user should have empty cart expected [0] but found [1]
+	at org.example.tests.YourCartTest.testCartIsolationBetweenUsers(YourCartTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.example.tests.TestRunner.main(TestRunner.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-failed -->
+          <div class="suite-All_Tests_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutWithMultipleItems">
+                  </a> <!-- testCheckoutWithMultipleItems -->
+                  <span class="method-name">testCheckoutWithMultipleItems</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.summary_total_label&quot;}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [948e8d7b23cd83ec0290f40cd7d1396b, findElement {using=class name, value=summary_total_label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50499}, goog:processID: 15440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50499/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 948e8d7b23cd83ec0290f40cd7d1396b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.getText(Unknown Source)
+	at org.example.pages.CheckoutPage.getTotalPrice(CheckoutPage.java:56)
+	at org.example.tests.CheckoutTest.testCheckoutWithMultipleItems(CheckoutTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.example.tests.TestRunner.main(TestRunner.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompleteCheckoutProcess">
+                  </a> <!-- testCompleteCheckoutProcess -->
+                  <span class="method-name">testCompleteCheckoutProcess</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#finish&quot;}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e9f2921705d351e52626dbde7db339d, findElement {using=id, value=finish}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 22540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e9f2921705d351e52626dbde7db339d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+	at org.example.pages.CheckoutPage.completePurchase(CheckoutPage.java:48)
+	at org.example.tests.CheckoutTest.testCompleteCheckoutProcess(CheckoutTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.example.tests.TestRunner.main(TestRunner.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-failed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddMultipleProducts">
+                  </a> <!-- testAddMultipleProducts -->
+                  <span class="method-name">testAddMultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddSingleProductToCart">
+                  </a> <!-- testAddSingleProductToCart -->
+                  <span class="method-name">testAddSingleProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContinueShopping">
+                  </a> <!-- testContinueShopping -->
+                  <span class="method-name">testContinueShopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.tests.SortingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortPriceHighToLow">
+                  </a> <!-- testSortPriceHighToLow -->
+                  <span class="method-name">testSortPriceHighToLow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortPriceLowToHigh">
+                  </a> <!-- testSortPriceLowToHigh -->
+                  <span class="method-name">testSortPriceLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortProductsAZ">
+                  </a> <!-- testSortProductsAZ -->
+                  <span class="method-name">testSortProductsAZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortProductsZA">
+                  </a> <!-- testSortProductsZA -->
+                  <span class="method-name">testSortProductsZA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.tests.UITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testButtonsVisibility">
+                  </a> <!-- testButtonsVisibility -->
+                  <span class="method-name">testButtonsVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testImagesLoading">
+                  </a> <!-- testImagesLoading -->
+                  <span class="method-name">testImagesLoading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMenuFunctionality">
+                  </a> <!-- testMenuFunctionality -->
+                  <span class="method-name">testMenuFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponsiveLayout">
+                  </a> <!-- testResponsiveLayout -->
+                  <span class="method-name">testResponsiveLayout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.tests.YourCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartItemDetails">
+                  </a> <!-- testCartItemDetails -->
+                  <span class="method-name">testCartItemDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLockedUserCannotAccessCart">
+                  </a> <!-- testLockedUserCannotAccessCart -->
+                  <span class="method-name">testLockedUserCannotAccessCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveItemFromCartPage">
+                  </a> <!-- testRemoveItemFromCartPage -->
+                  <span class="method-name">testRemoveItemFromCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutValidation">
+                  </a> <!-- testCheckoutValidation -->
+                  <span class="method-name">testCheckoutValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+          <div class="suite-All_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(locked_out_user, secret_sauce, false, Locked out user)">
+                  </a> <!-- testLoginWithDifferentUsers(locked_out_user, secret_sauce, false, Locked out user) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(locked_out_user,secret_sauce,false,Locked out user)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(, secret_sauce, false, Empty username)">
+                  </a> <!-- testLoginWithDifferentUsers(, secret_sauce, false, Empty username) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(,secret_sauce,false,Empty username)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(problem_user, secret_sauce, true, Problem user)">
+                  </a> <!-- testLoginWithDifferentUsers(problem_user, secret_sauce, true, Problem user) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(problem_user,secret_sauce,true,Problem user)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(wrong_user, wrong_pass, false, Invalid credentials)">
+                  </a> <!-- testLoginWithDifferentUsers(wrong_user, wrong_pass, false, Invalid credentials) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(wrong_user,wrong_pass,false,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(standard_user, secret_sauce, true, Valid standard user)">
+                  </a> <!-- testLoginWithDifferentUsers(standard_user, secret_sauce, true, Valid standard user) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(standard_user,secret_sauce,true,Valid standard user)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(standard_user, , false, Empty password)">
+                  </a> <!-- testLoginWithDifferentUsers(standard_user, , false, Empty password) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(standard_user,,false,Empty password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithDifferentUsers(performance_glitch_user, secret_sauce, true, Performance user)">
+                  </a> <!-- testLoginWithDifferentUsers(performance_glitch_user, secret_sauce, true, Performance user) -->
+                  <span class="method-name">testLoginWithDifferentUsers</span>
+                  <span class="parameters">(performance_glitch_user,secret_sauce,true,Performance user)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutFunctionality">
+                  </a> <!-- testLogoutFunctionality -->
+                  <span class="method-name">testLogoutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests_Suite-class-passed -->
+        </div> <!-- panel All_Tests_Suite -->
+        <div panel-name="test-xml-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Tests Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Complete Test Run&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.example.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;org.example.tests.CartTest&quot;/&gt;
+      &lt;class name=&quot;org.example.tests.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;org.example.tests.SortingTest&quot;/&gt;
+      &lt;class name=&quot;org.example.tests.UITest&quot;/&gt;
+      &lt;class name=&quot;org.example.tests.YourCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Complete Test Run --&gt;
+&lt;/suite&gt; &lt;!-- All Tests Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Complete Test Run (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Tests_Suite');
+function tableData_All_Tests_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoginWithDifferentUsers')
+data.setCell(0, 2, 'org.example.tests.LoginTest')
+data.setCell(0, 3, 6653);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCheckoutWithMultipleItems')
+data.setCell(1, 2, 'org.example.tests.CheckoutTest')
+data.setCell(1, 3, 2340);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCompleteCheckoutProcess')
+data.setCell(2, 2, 'org.example.tests.CheckoutTest')
+data.setCell(2, 3, 2293);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCartPersistence')
+data.setCell(3, 2, 'org.example.tests.CartTest')
+data.setCell(3, 3, 1963);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCartIsolationBetweenUsers')
+data.setCell(4, 2, 'org.example.tests.YourCartTest')
+data.setCell(4, 3, 1937);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCheckoutValidation')
+data.setCell(5, 2, 'org.example.tests.CheckoutTest')
+data.setCell(5, 3, 1803);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginWithDifferentUsers')
+data.setCell(6, 2, 'org.example.tests.LoginTest')
+data.setCell(6, 3, 1757);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLogoutFunctionality')
+data.setCell(7, 2, 'org.example.tests.LoginTest')
+data.setCell(7, 3, 1723);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLoginWithDifferentUsers')
+data.setCell(8, 2, 'org.example.tests.LoginTest')
+data.setCell(8, 3, 1690);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAddMultipleProducts')
+data.setCell(9, 2, 'org.example.tests.CartTest')
+data.setCell(9, 3, 1530);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testContinueShopping')
+data.setCell(10, 2, 'org.example.tests.CartTest')
+data.setCell(10, 3, 1437);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMenuFunctionality')
+data.setCell(11, 2, 'org.example.tests.UITest')
+data.setCell(11, 3, 1427);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testResponsiveLayout')
+data.setCell(12, 2, 'org.example.tests.UITest')
+data.setCell(12, 3, 1416);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSortPriceLowToHigh')
+data.setCell(13, 2, 'org.example.tests.SortingTest')
+data.setCell(13, 3, 1253);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testRemoveItemFromCartPage')
+data.setCell(14, 2, 'org.example.tests.YourCartTest')
+data.setCell(14, 3, 1253);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSortPriceHighToLow')
+data.setCell(15, 2, 'org.example.tests.SortingTest')
+data.setCell(15, 3, 1247);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCartItemDetails')
+data.setCell(16, 2, 'org.example.tests.YourCartTest')
+data.setCell(16, 3, 1141);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRemoveProductFromCart')
+data.setCell(17, 2, 'org.example.tests.CartTest')
+data.setCell(17, 3, 1113);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testAddSingleProductToCart')
+data.setCell(18, 2, 'org.example.tests.CartTest')
+data.setCell(18, 3, 1060);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSortProductsZA')
+data.setCell(19, 2, 'org.example.tests.SortingTest')
+data.setCell(19, 3, 939);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLoginWithDifferentUsers')
+data.setCell(20, 2, 'org.example.tests.LoginTest')
+data.setCell(20, 3, 754);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testLoginWithDifferentUsers')
+data.setCell(21, 2, 'org.example.tests.LoginTest')
+data.setCell(21, 3, 749);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testLoginWithDifferentUsers')
+data.setCell(22, 2, 'org.example.tests.LoginTest')
+data.setCell(22, 3, 734);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSortProductsAZ')
+data.setCell(23, 2, 'org.example.tests.SortingTest')
+data.setCell(23, 3, 732);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testLoginWithDifferentUsers')
+data.setCell(24, 2, 'org.example.tests.LoginTest')
+data.setCell(24, 3, 721);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testLockedUserCannotAccessCart')
+data.setCell(25, 2, 'org.example.tests.YourCartTest')
+data.setCell(25, 3, 652);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testButtonsVisibility')
+data.setCell(26, 2, 'org.example.tests.UITest')
+data.setCell(26, 3, 628);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testImagesLoading')
+data.setCell(27, 2, 'org.example.tests.UITest')
+data.setCell(27, 3, 606);
+window.suiteTableData['All_Tests_Suite']= { tableData: data, tableDiv: 'times-div-All_Tests_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <div id="times-div-All_Tests_Suite">
+              </div> <!-- times-div-All_Tests_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(standard_user, secret_sauce, true, Valid standard user)</span>
+                <span class="method-start">5970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8026 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(locked_out_user, secret_sauce, false, Locked out user)</span>
+                <span class="method-start">11723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(problem_user, secret_sauce, true, Problem user)</span>
+                <span class="method-start">17050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(performance_glitch_user, secret_sauce, true, Performance user)</span>
+                <span class="method-start">22336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(, secret_sauce, false, Empty username)</span>
+                <span class="method-start">32730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(standard_user, , false, Empty password)</span>
+                <span class="method-start">36948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithDifferentUsers(wrong_user, wrong_pass, false, Invalid credentials)</span>
+                <span class="method-start">41342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutFunctionality</span>
+                <span class="method-start">45803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47526 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddMultipleProducts</span>
+                <span class="method-start">51700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddSingleProductToCart</span>
+                <span class="method-start">57086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCartPersistence</span>
+                <span class="method-start">61714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testContinueShopping</span>
+                <span class="method-start">67311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRemoveProductFromCart</span>
+                <span class="method-start">72687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73800 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutValidation</span>
+                <span class="method-start">77811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCheckoutWithMultipleItems</span>
+                <span class="method-start">83594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">86210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCompleteCheckoutProcess</span>
+                <span class="method-start">90317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92610 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.tests.SortingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">92892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSortPriceHighToLow</span>
+                <span class="method-start">96173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSortPriceLowToHigh</span>
+                <span class="method-start">101232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102485 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">102757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSortProductsAZ</span>
+                <span class="method-start">106021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107045 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSortProductsZA</span>
+                <span class="method-start">111290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112229 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.tests.UITest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">112412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testButtonsVisibility</span>
+                <span class="method-start">116027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testImagesLoading</span>
+                <span class="method-start">119880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">120486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">120634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMenuFunctionality</span>
+                <span class="method-start">123738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testResponsiveLayout</span>
+                <span class="method-start">128487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129903 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.tests.YourCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">130062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCartIsolationBetweenUsers</span>
+                <span class="method-start">132915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">135002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCartItemDetails</span>
+                <span class="method-start">137777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">139086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLockedUserCannotAccessCart</span>
+                <span class="method-start">141731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">142553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveItemFromCartPage</span>
+                <span class="method-start">145738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146991 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

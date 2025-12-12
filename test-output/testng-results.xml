@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="23" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-10T21:00:32 EET" name="All Tests Suite" finished-at="2025-12-10T21:02:59 EET" duration-ms="147355">
+    <groups>
+    </groups>
+    <test started-at="2025-12-10T21:00:32 EET" name="Complete Test Run" finished-at="2025-12-10T21:02:59 EET" duration-ms="147355">
+      <class name="org.example.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:32 EET" name="setUp" finished-at="2025-12-10T21:00:38 EET" duration-ms="5968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:38 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:00:40 EET" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid standard user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:40 EET" name="tearDown" finished-at="2025-12-10T21:00:40 EET" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:40 EET" name="setUp" finished-at="2025-12-10T21:00:44 EET" duration-ms="3697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:44 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:00:45 EET" duration-ms="754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Locked out user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:45 EET" name="tearDown" finished-at="2025-12-10T21:00:45 EET" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:45 EET" name="setUp" finished-at="2025-12-10T21:00:49 EET" duration-ms="4294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:49 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:00:51 EET" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Problem user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:51 EET" name="tearDown" finished-at="2025-12-10T21:00:51 EET" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:51 EET" name="setUp" finished-at="2025-12-10T21:00:54 EET" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:00:55 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:01:01 EET" duration-ms="6653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Performance user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:01 EET" name="tearDown" finished-at="2025-12-10T21:01:01 EET" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:01 EET" name="setUp" finished-at="2025-12-10T21:01:05 EET" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:05 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:01:06 EET" duration-ms="749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Empty username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:06 EET" name="tearDown" finished-at="2025-12-10T21:01:06 EET" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:06 EET" name="setUp" finished-at="2025-12-10T21:01:09 EET" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:09 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:01:10 EET" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Empty password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:10 EET" name="tearDown" finished-at="2025-12-10T21:01:10 EET" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:10 EET" name="setUp" finished-at="2025-12-10T21:01:14 EET" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithDifferentUsers(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:14 EET" name="testLoginWithDifferentUsers" data-provider="loginCredentials" finished-at="2025-12-10T21:01:14 EET" duration-ms="734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:14 EET" name="tearDown" finished-at="2025-12-10T21:01:14 EET" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:14 EET" name="setUp" finished-at="2025-12-10T21:01:18 EET" duration-ms="3486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogoutFunctionality()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:18 EET" name="testLogoutFunctionality" finished-at="2025-12-10T21:01:20 EET" duration-ms="1723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.LoginTest@704a52ec]" started-at="2025-12-10T21:01:20 EET" name="tearDown" finished-at="2025-12-10T21:01:20 EET" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests.LoginTest -->
+      <class name="org.example.tests.UITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:25 EET" name="setUp" finished-at="2025-12-10T21:02:28 EET" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testButtonsVisibility()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:28 EET" name="testButtonsVisibility" finished-at="2025-12-10T21:02:29 EET" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testButtonsVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:29 EET" name="tearDown" finished-at="2025-12-10T21:02:29 EET" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:29 EET" name="setUp" finished-at="2025-12-10T21:02:32 EET" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testImagesLoading()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:32 EET" name="testImagesLoading" finished-at="2025-12-10T21:02:33 EET" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImagesLoading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:33 EET" name="tearDown" finished-at="2025-12-10T21:02:33 EET" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:33 EET" name="setUp" finished-at="2025-12-10T21:02:36 EET" duration-ms="3104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMenuFunctionality()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:36 EET" name="testMenuFunctionality" finished-at="2025-12-10T21:02:37 EET" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:37 EET" name="tearDown" finished-at="2025-12-10T21:02:38 EET" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:38 EET" name="setUp" finished-at="2025-12-10T21:02:41 EET" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResponsiveLayout()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:41 EET" name="testResponsiveLayout" finished-at="2025-12-10T21:02:42 EET" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsiveLayout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.UITest@27808f31]" started-at="2025-12-10T21:02:42 EET" name="tearDown" finished-at="2025-12-10T21:02:42 EET" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests.UITest -->
+      <class name="org.example.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:20 EET" name="setUp" finished-at="2025-12-10T21:01:24 EET" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleProducts()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:24 EET" name="testAddMultipleProducts" finished-at="2025-12-10T21:01:25 EET" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:25 EET" name="tearDown" finished-at="2025-12-10T21:01:26 EET" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:26 EET" name="setUp" finished-at="2025-12-10T21:01:29 EET" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSingleProductToCart()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:29 EET" name="testAddSingleProductToCart" finished-at="2025-12-10T21:01:30 EET" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:30 EET" name="tearDown" finished-at="2025-12-10T21:01:31 EET" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:31 EET" name="setUp" finished-at="2025-12-10T21:01:34 EET" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartPersistence()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:34 EET" name="testCartPersistence" finished-at="2025-12-10T21:01:36 EET" duration-ms="1963" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4c8fc845a2ae6a1cf1107e54fdb8485, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49175}, goog:processID: 19700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49175/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4c8fc845a2ae6a1cf1107e54fdb8485]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4c8fc845a2ae6a1cf1107e54fdb8485, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49175}, goog:processID: 19700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49175/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4c8fc845a2ae6a1cf1107e54fdb8485
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.clear(Unknown Source)
+at org.example.pages.LoginPage.enterUsername(LoginPage.java:26)
+at org.example.pages.LoginPage.login(LoginPage.java:40)
+at org.example.tests.base.BaseTest.loginAsStandardUser(BaseTest.java:48)
+at org.example.tests.CartTest.testCartPersistence(CartTest.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.example.tests.TestRunner.main(TestRunner.java:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPersistence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:36 EET" name="tearDown" finished-at="2025-12-10T21:01:36 EET" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:36 EET" name="setUp" finished-at="2025-12-10T21:01:39 EET" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContinueShopping()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:39 EET" name="testContinueShopping" finished-at="2025-12-10T21:01:41 EET" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:41 EET" name="tearDown" finished-at="2025-12-10T21:01:41 EET" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:41 EET" name="setUp" finished-at="2025-12-10T21:01:45 EET" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProductFromCart()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:45 EET" name="testRemoveProductFromCart" finished-at="2025-12-10T21:01:46 EET" duration-ms="1113" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9d4884b8ccf80586da1a5cbac24f793, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53473}, goog:processID: 1740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53473/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9d4884b8ccf80586da1a5cbac24f793]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9d4884b8ccf80586da1a5cbac24f793, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53473}, goog:processID: 1740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53473/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9d4884b8ccf80586da1a5cbac24f793
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+at org.example.pages.ProductsPage.isCartBadgeDisplayed(ProductsPage.java:53)
+at org.example.tests.CartTest.testRemoveProductFromCart(CartTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.example.tests.TestRunner.main(TestRunner.java:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CartTest@fad74ee]" started-at="2025-12-10T21:01:46 EET" name="tearDown" finished-at="2025-12-10T21:01:46 EET" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests.CartTest -->
+      <class name="org.example.tests.SortingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:05 EET" name="setUp" finished-at="2025-12-10T21:02:08 EET" duration-ms="3279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortPriceHighToLow()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:08 EET" name="testSortPriceHighToLow" finished-at="2025-12-10T21:02:10 EET" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:10 EET" name="tearDown" finished-at="2025-12-10T21:02:10 EET" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:10 EET" name="setUp" finished-at="2025-12-10T21:02:13 EET" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortPriceLowToHigh()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:13 EET" name="testSortPriceLowToHigh" finished-at="2025-12-10T21:02:15 EET" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:15 EET" name="tearDown" finished-at="2025-12-10T21:02:15 EET" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:15 EET" name="setUp" finished-at="2025-12-10T21:02:18 EET" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortProductsAZ()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:18 EET" name="testSortProductsAZ" finished-at="2025-12-10T21:02:19 EET" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortProductsAZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:19 EET" name="tearDown" finished-at="2025-12-10T21:02:19 EET" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:19 EET" name="setUp" finished-at="2025-12-10T21:02:23 EET" duration-ms="4245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortProductsZA()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:23 EET" name="testSortProductsZA" finished-at="2025-12-10T21:02:24 EET" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortProductsZA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.SortingTest@37d31475]" started-at="2025-12-10T21:02:24 EET" name="tearDown" finished-at="2025-12-10T21:02:25 EET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests.SortingTest -->
+      <class name="org.example.tests.YourCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:42 EET" name="setUp" finished-at="2025-12-10T21:02:45 EET" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartIsolationBetweenUsers()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:45 EET" name="testCartIsolationBetweenUsers" finished-at="2025-12-10T21:02:47 EET" duration-ms="1937" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Different user should have empty cart expected [0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Different user should have empty cart expected [0] but found [1]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.example.tests.YourCartTest.testCartIsolationBetweenUsers(YourCartTest.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.example.tests.TestRunner.main(TestRunner.java:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartIsolationBetweenUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:47 EET" name="tearDown" finished-at="2025-12-10T21:02:47 EET" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:47 EET" name="setUp" finished-at="2025-12-10T21:02:50 EET" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartItemDetails()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:50 EET" name="testCartItemDetails" finished-at="2025-12-10T21:02:51 EET" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartItemDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:51 EET" name="tearDown" finished-at="2025-12-10T21:02:51 EET" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:51 EET" name="setUp" finished-at="2025-12-10T21:02:54 EET" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedUserCannotAccessCart()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:54 EET" name="testLockedUserCannotAccessCart" finished-at="2025-12-10T21:02:55 EET" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedUserCannotAccessCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:55 EET" name="tearDown" finished-at="2025-12-10T21:02:55 EET" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:55 EET" name="setUp" finished-at="2025-12-10T21:02:58 EET" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCartPage()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:58 EET" name="testRemoveItemFromCartPage" finished-at="2025-12-10T21:02:59 EET" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.YourCartTest@436e852b]" started-at="2025-12-10T21:02:59 EET" name="tearDown" finished-at="2025-12-10T21:02:59 EET" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests.YourCartTest -->
+      <class name="org.example.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:46 EET" name="setUp" finished-at="2025-12-10T21:01:50 EET" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutValidation()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:50 EET" name="testCheckoutValidation" finished-at="2025-12-10T21:01:52 EET" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:52 EET" name="tearDown" finished-at="2025-12-10T21:01:52 EET" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:52 EET" name="setUp" finished-at="2025-12-10T21:01:56 EET" duration-ms="3698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutWithMultipleItems()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:56 EET" name="testCheckoutWithMultipleItems" finished-at="2025-12-10T21:01:58 EET" duration-ms="2340" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".summary_total_label"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [948e8d7b23cd83ec0290f40cd7d1396b, findElement {using=class name, value=summary_total_label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50499}, goog:processID: 15440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50499/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 948e8d7b23cd83ec0290f40cd7d1396b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".summary_total_label"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [948e8d7b23cd83ec0290f40cd7d1396b, findElement {using=class name, value=summary_total_label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50499}, goog:processID: 15440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50499/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 948e8d7b23cd83ec0290f40cd7d1396b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.getText(Unknown Source)
+at org.example.pages.CheckoutPage.getTotalPrice(CheckoutPage.java:56)
+at org.example.tests.CheckoutTest.testCheckoutWithMultipleItems(CheckoutTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.example.tests.TestRunner.main(TestRunner.java:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:58 EET" name="tearDown" finished-at="2025-12-10T21:01:58 EET" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:01:58 EET" name="setUp" finished-at="2025-12-10T21:02:02 EET" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompleteCheckoutProcess()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:02:02 EET" name="testCompleteCheckoutProcess" finished-at="2025-12-10T21:02:05 EET" duration-ms="2293" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e9f2921705d351e52626dbde7db339d, findElement {using=id, value=finish}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 22540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e9f2921705d351e52626dbde7db339d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=143.0.7499.40)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e9f2921705d351e52626dbde7db339d, findElement {using=id, value=finish}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\ELITEB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50527}, goog:processID: 22540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50527/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e9f2921705d351e52626dbde7db339d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at org.example.pages.CheckoutPage.completePurchase(CheckoutPage.java:48)
+at org.example.tests.CheckoutTest.testCompleteCheckoutProcess(CheckoutTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.example.tests.TestRunner.main(TestRunner.java:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteCheckoutProcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.tests.CheckoutTest@1a1d6a08]" started-at="2025-12-10T21:02:05 EET" name="tearDown" finished-at="2025-12-10T21:02:05 EET" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.tests.CheckoutTest -->
+    </test> <!-- Complete Test Run -->
+  </suite> <!-- All Tests Suite -->
+</testng-results>

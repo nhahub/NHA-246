@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo POM Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="org.example.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="org.example.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="org.example.tests.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="org.example.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Sorting Tests">
+        <classes>
+            <class name="org.example.tests.SortingTest"/>
+        </classes>
+    </test>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="org.example.tests.UITest"/>
+        </classes>
+    </test>
+
+    <test name="Your Cart Tests">
+        <classes>
+            <class name="org.example.tests.YourCartTest"/>
+        </classes>
+    </test>
+
+</suite>
