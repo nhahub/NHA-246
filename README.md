@@ -29,41 +29,55 @@ The project includes test automation for Login, Cart, Checkout, Sorting, UI vali
 
 ## Project Structure
 
+```
 PrimeTester/
 ├── pom.xml
 ├── testng.xml
 ├── .idea/
 ├── .mvn/
 ├── src/
-│   ├── main/java/org/example/
-│   │   ├── listeners/         # Test listeners
-│   │   ├── pages/             # Page Object Model classes
-│   │   ├── utils/             # Helper utilities
-│   │   └── App.java           # Optional
-│   └── test/java/org/example/tests/
-│       ├── base/              # BaseTest setup
-│       ├── LoginTest.java
-│       ├── CartTest.java
-│       ├── CheckoutTest.java
-│       ├── SortingTest.java
-│       ├── UITest.java
-│       ├── YourCartTest.java
-│       └── TestRunner.java
+│   ├── main/
+│   │   └── java/org/example/
+│   │       ├── listeners/         # Test listeners
+│   │       ├── pages/             # Page Object Model classes (POM)
+│   │       │   ├── BasePage.java
+│   │       │   ├── LoginPage.java
+│   │       │   ├── ProductsPage.java
+│   │       │   ├── CartPage.java
+│   │       │   └── CheckoutPage.java
+│   │       ├── utils/             # Helper utilities
+│   │       │   ├── DriverFactory.java
+│   │       │   └── ConfigReader.java
+│   │       └── App.java           # Optional
+│   └── test/
+│       └── java/org/example/tests/
+│           ├── base/              # BaseTest setup
+│           │   └── BaseTest.java
+│           ├── LoginTest.java
+│           ├── CartTest.java
+│           ├── CheckoutTest.java
+│           ├── SortingTest.java
+│           ├── UITest.java
+│           ├── YourCartTest.java
+│           └── TestRunner.java
 └── src/test/resources/
-    ├── config.properties      # App configuration
+    ├── config.properties          # App configuration
     └── test-data/
-        └── users.json         # Test data (optional)
+        └── users.json             # Test data (optional)
+```
 
 ---
 
 ## Running Tests
 
 ### Run all tests via Maven
+```bash
 mvn test
+```
 
 ### Run TestRunner directly from IntelliJ
-1. Open TestRunner.java
-2. Click Run ▶️
+1. Open `TestRunner.java`
+2. Click **Run ▶️**
 
 ### Run API Tests using Postman
 1. Open Postman
@@ -76,31 +90,31 @@ mvn test
 
 ## Automated Test Coverage
 
-Test Class      | Coverage
-----------------|--------------------------
-LoginTest       | Valid login, invalid login, locked user scenarios
-CartTest        | Add to cart, remove from cart
-YourCartTest    | Cart details, item count verification
-CheckoutTest    | User info, checkout steps, order completion
-SortingTest     | Sort by name and price
-UITest          | UI checks & element visibility
-AppTest         | General framework validation
-API Tests       | API endpoint verification via Postman
+| Test Class      | Coverage |
+|-----------------|---------|
+| LoginTest       | Valid login, invalid login, locked user scenarios |
+| CartTest        | Add to cart, remove from cart |
+| YourCartTest    | Cart details, item count verification |
+| CheckoutTest    | User info, checkout steps, order completion |
+| SortingTest     | Sort by name and price |
+| UITest          | UI checks & element visibility |
+| AppTest         | General framework validation |
+| API Tests       | API endpoint verification via Postman |
 
 ---
 
 ## Project Deliverables
 
-- Manual Test Cases (Excel Sheet)
+- Manual Test Cases (Excel Sheet)  
   https://1drv.ms/x/c/95e188fbebbf03c2/IQBe88wM8hsFQL5p8fCT2F45AYu4jxlLR0b-Q16c12gpsos?e=IWVGMD
 
-- Presentation (PrimeTester)
+- Presentation (PrimeTester)  
   https://1drv.ms/p/c/28300ce589eb0205/IQBJUWuZHDdPR6xYGTla3PbPARYIY3_5jMUKi7ox5avQH3w?e=spuB9c
 
-- Documentation
+- Documentation  
   https://drive.google.com/file/d/1s-PwTz472MSqe6MWN3p4KdLbqBMjRrZJ/view?usp=sharing
 
-- Test Plan
+- Test Plan  
   https://drive.google.com/file/d/1lTCrsSZZFHhqiueUrOYPVCF98Z-I2t9a/view?usp=sharing
 
 ---
@@ -130,25 +144,25 @@ API Tests       | API endpoint verification via Postman
 ## POM (Page Object Model) Implementation Highlights
 
 1. Separation of Concerns:
-   - pages/ → Page elements & actions
-   - tests/ → Test scenarios
-   - utils/ → Helper functions
+   - `pages/` → Page elements & actions
+   - `tests/` → Test scenarios
+   - `utils/` → Helper functions
 
 2. Page Objects:
-   - BasePage.java → Driver & common methods
-   - LoginPage.java → Login actions
-   - ProductsPage.java → Product selection & sorting
-   - CartPage.java → Cart actions
-   - CheckoutPage.java → Checkout process
+   - `BasePage.java` → Driver & common methods
+   - `LoginPage.java` → Login actions
+   - `ProductsPage.java` → Product selection & sorting
+   - `CartPage.java` → Cart actions
+   - `CheckoutPage.java` → Checkout process
 
-3. BaseTest.java → Setup & teardown, login helper methods
+3. `BaseTest.java` → Setup & teardown, login helper methods
 
-4. DriverFactory.java → WebDriver management
+4. `DriverFactory.java` → WebDriver management
 
-5. ConfigReader.java → Read application properties
+5. `ConfigReader.java` → Read application properties
 
 6. Updated tests to use POM instead of direct WebDriver calls
 
-7. Dependencies in pom.xml: Selenium, TestNG, WebDriverManager
+7. Dependencies in `pom.xml`: Selenium, TestNG, WebDriverManager
 
-8. TestNG suite (testng.xml) for running all tests together
+8. TestNG suite (`testng.xml`) for running all tests together
